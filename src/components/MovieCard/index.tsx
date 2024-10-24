@@ -1,6 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 
+import "./index.scss";
+
 import { Movie } from "@/types/movie";
+
 import StarRating from "../StarRating";
 
 export interface Props {
@@ -20,8 +23,10 @@ export default function MovieCard(props: Props) {
 
       <div className="movie-infor">
         <p className="movie-title">{movie.title}</p>
+        <StarRating rating={movie.vote_average} />
         <div className="hidden-content">
           <p className="description">{movie.overview}</p>
+          <button className="btn-default">Ver Mais</button>
         </div>
       </div>
     </li>
