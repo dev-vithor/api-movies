@@ -1,0 +1,13 @@
+api-movies@0.1.0 C:\Users\Usuario\Downloads\pasta do vitor\projectReact-apiFilmes\api-movies
+├── axios@1.7.7
+├── next@14.2.15
+├── react-dom@18.3.1
+├── react-icons@5.3.0
+├── react-loading@2.0.3
+├── react@18.3.1
+└── sass@1.80.4
+
+Codigo que gera esse arquivo de dependencias é o : npm ls --prod --depth=0 > dependencies.txt
+
+
+cmd para instalar todas as dependencias: npm install axios@1.7.7 next@14.2.15 react-dom@18.3.1 react-icons@5.3.0 react-loading@2.0.3 react@18.3.1 sass@1.80.4
