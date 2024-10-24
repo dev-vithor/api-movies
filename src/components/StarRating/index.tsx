@@ -26,7 +26,7 @@ export default function StarRating(props: Props) {
         <FaStar key={index} color="gold" />
       ))}
       {emptyStar.map(index => (
-        <FaRegStar key={index} />
+        <FaRegStar key={index} color="gray" />
       ))}
     </div>
   );
